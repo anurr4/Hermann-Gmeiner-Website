@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+h1{
+    font-size: 5vh;
+}
+.modules{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Poppins';
+}
+.modules2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.notifications{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 30vh; 
+    margin: 1vh;
+}
+.notifbtn{
+    width: 20vh;
+    border:none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 23, 23);
+    outline:none;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.notifbtn:hover{
+    background-color: rgb(182, 64, 64);
+}
+.activitiesbtn:hover{
+    background-color: rgb(182, 64, 64);
+}
+.teacherbtn:hover{
+    background-color: rgb(182, 64, 64);
+}
+.awardsbtn:hover{
+    background-color: rgb(182, 64, 64);
+}
+.competitionbtn:hover{
+    background-color: rgb(182, 64, 64);
+}
+.coachingbtn:hover{
+    background-color: rgb(182, 64, 64);
+}
+.coaching{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 30vh; 
+    margin: 1vh;
+}
+.coachingbtn{
+    width: 20vh;
+    border:none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 23, 23);
+    outline:none;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.competition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 30vh; 
+    margin: 1vh;
+}
+.competitionbtn{
+    width: 20vh;
+    border:none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 23, 23);
+    outline:none;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.awards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 30vh; 
+    margin: 1vh;
+}
+.awardsbtn{
+    width: 20vh;
+    border:none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 23, 23);
+    outline:none;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.activities{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vh; 
+    margin: 1vh;
+    border: 2px solid red;
+}
+.activitiesbtn{
+    width: 20vh;
+    border:none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 23, 23);
+    outline:none;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.teachers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vh; 
+    margin: 1vh;
+    border: 2px solid red;
+}
+.teacherbtn{
+    width: 20vh;
+    border:none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 23, 23);
+    outline:none;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .modules{
+    display: flex;
+    flex-direction: column;
+}
+.modules2{
+    display: flex;
+    flex-direction: column;
+}
+.notifbtn{
+    font-size: 2.5vh;
+}
+.activitiesbtn{
+    font-size: 2.5vh;
+}
+.awardsbtn{
+    font-size: 2.5vh;
+}
+.teacherbtn{
+    font-size: 2.5vh;
+}
+.competitionbtn{
+    font-size: 2.5vh;
+}
+.coachingbtn{
+    font-size: 2.5vh;
+}
+}

@@ -1,0 +1,37 @@
+.login{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+#u,#p{
+    outline: none;
+    text-align:left;
+    font-size: 1.5vw;
+    font-weight: 200;
+    border:none;
+    background:none;
+    border-bottom: 2px solid #e01010e3;
+    width: 16.5vw;
+}
+#u:focus,#p:focus{
+    border-bottom: 2px solid #e01010e3;
+    width: 17.5vw;
+    transition: 0.5s;
+}
+#btn{
+    border:none;
+    color: rgb(212, 194, 184);
+    background-color: rgb(197, 23, 23);
+    outline:none;
+    width: 15%;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(182, 64, 64);
+}
